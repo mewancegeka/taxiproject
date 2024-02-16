@@ -2,5 +2,6 @@
   "host": "https://adb-4005201404626695.15.azuredatabricks.net/",
   "authType": "databricks-cli",
   "databricksPath": "c:\\Users\\mewana\\.vscode\\extensions\\databricks.databricks-1.2.7-win32-x64\\bin\\databricks",
+  "clusterId": "0109-143632-e8t2c4gc",
   "workspacePath": "/Users/mewan.alwis@cegeka.com/.ide/taxiproject"
 }
