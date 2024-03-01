@@ -1,3 +1,4 @@
+
 from pyspark.sql.types import *
 from pyspark.sql.functions import *
 from pyspark.sql import SparkSession
@@ -19,3 +20,4 @@ df = (df
 
 output_directory = "/mnt/silver/taxi"
 df.write.mode("overwrite").partitionBy("pickup_date","taxi_type").parquet(output_directory)
+
